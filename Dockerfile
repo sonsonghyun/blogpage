@@ -2,7 +2,7 @@ FROM python:3.10.0
 
 WORKDIR /home/
 
-RUN git clone https://github.com/sonsonghyun/blog.git
+RUN git clone https://github.com/sonsonghyun/fragment.git
 
 WORKDIR /home/blog/
 
